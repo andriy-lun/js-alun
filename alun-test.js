@@ -1,6 +1,6 @@
 var x = 0.1;
 var y = 0.2;
-var sum = x + y;//test1
+var sum = x + y;//test2
 console.log (sum);
 console.log (typeof sum);
 const pi = 3.14159265;
