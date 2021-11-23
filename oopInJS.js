@@ -3,7 +3,7 @@ class Animal {
     constructor(name) {
     this.name = name;
     }
-    say () {return "";}
+    say() {return "";}
 }
 console.log("\n", Animal);
 
@@ -11,9 +11,9 @@ class Cow extends Animal {
     constructor(name) {
         super(name);
     }
-    say () {
+    say() {
         console.log ("Mooooo");
-        return "Moo";
+        return "Mooooo";
     }
 }
 
@@ -21,9 +21,9 @@ class Pig extends Animal {
     constructor(name) {
         super (name);
     }
-    say () {
+    say() {
         console.log("Weeeee")
-        return "wee"
+        return "Weeeee"
     }
 }
 
@@ -33,7 +33,7 @@ class Ship extends Animal {
         this.clone = clone;
         this.alive = alive;
     }
-    say () {
+    say() {
         console.log ("Beeeee");
         return "Beeeee"
     };
